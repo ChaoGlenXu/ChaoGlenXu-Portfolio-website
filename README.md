@@ -8,7 +8,8 @@ Responsive across all screen sizes — from desktop browsers to iPhone and Andro
 
 ## 🌐 Live Demo
 
-Check out the live website here: [https://chaoglenxu-portfolio.netlify.app/)
+Check out the live website here: [https://chaoglenxu-portfolio.netlify.app/](https://chaoglenxu-portfolio.netlify.app/)
+
 
 ---
 
