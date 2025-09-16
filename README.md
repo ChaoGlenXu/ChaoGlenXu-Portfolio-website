@@ -25,7 +25,6 @@ Responsive across all screen sizes — from desktop browsers to iPhone and Andro
     
 > ⚠️ Note: The backend (Sanity CMS) is in a **separate repository**. Dynamic content like projects, skills, testimonials, and contact form messages is managed through that backend.
 
----
 
 ---
 
