@@ -1,0 +1,177 @@
+.app__footer {
+    display: flex;
+    //flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+
+    @media screen and (max-width: 390px) {
+        .app__footer-form {
+            width: 100%;
+            margin: 1rem 0;             /* remove side margin */
+            padding: 0 1rem;             /* add inner space from screen edge */
+            box-sizing: border-box;
+        }
+
+        .app__footer-form div {
+            width: 100%;
+            padding: 0 0.5rem;            /* give inner space for input */
+            box-sizing: border-box;
+        }
+
+        .app__footer-form input,
+        .app__footer-form textarea {
+            width: 100%;
+            padding-left: 1rem;         /* space for first character */
+            box-sizing: border-box;
+        }
+    }
+
+}
+
+
+.app__footer-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 4rem 2rem 2rem;
+
+    .app__footer-card {
+        min-width: 290px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ecf1b0;
+
+        transition: all 0.3s ease-in-out;
+
+        img {
+            width: 80px;
+            height: 80px;
+            margin: 0 1rem;
+        }
+
+        // p {
+        //     font-weight: 600;
+        // }
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 1rem;
+        }
+
+        &:hover {
+            box-shadow: 0 0 25px #9b9d7d;
+        }
+
+        @media screen and (max-width: 450px) {
+            width: 100%;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 750px) {
+            width: 100%;
+    }
+}
+
+.app__footer-cards .app__footer-card:last-child {
+    background-color: #deefbf;
+}
+
+
+.app__footer-form {
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 2rem;
+
+    div {
+        width: 100%;
+
+        margin: 0.75rem 0;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: var(--primary-color);
+        
+        transition: all 0.3s ease-in-out;
+
+
+        input, textarea {
+            width: 100%;
+            padding: 0.95rem;
+            border: none;
+            border-radius: 10px;
+            background-color: var(--primary-color);
+
+            font-family: var(--font-base);
+            color: var(--secondary-color);
+            outline: none;
+        }
+
+        textarea {
+            height: 200px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 25px #b3b7d9;
+        }
+
+        
+    }
+
+
+    
+    button {
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        border: none;
+        background-color: var(--secondary-color);
+
+        font-family: 500;
+        color: #ffffff;
+        outline: none;
+        margin: 2rem 0 0 0;
+        font-family: var(--font-base);
+        cursor: pointer;
+
+        
+    }
+
+    button:active {
+    background-color: #4f4c6f; /* your desired color */
+    }
+
+    @media screen and (max-width: 750px) {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+}
+
+//witg tge following, it make it looks the same as regular web, but adds extra complexity to understand, so decided to comment it out since not affecting usabiliy for mobile phone screen like iphone se
+@media screen and (max-width: 320px) {
+  .app__footer-form {
+    width: 100%;
+    margin: 1rem 0;            /* remove horizontal margin */
+    padding: 0 1rem;            /* add inner padding to prevent clipping */
+    box-sizing: border-box;     /* make sure padding is counted inside width */
+  }
+
+  .app__footer-form input,
+  .app__footer-form textarea {
+    width: 100%;
+    box-sizing: border-box;     /* prevents content overflow */
+    padding-left: 1rem;         /* ensure space for first character */
+  }
+}
