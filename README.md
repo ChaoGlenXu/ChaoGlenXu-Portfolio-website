@@ -1,6 +1,6 @@
 # 💻 Chao (Glen) Xu — Portfolio Website
 
-A **full-stack personal portfolio website** to showcase my software projects, skills, professional experience, and testimonials — with an integrated contact form that sends messages directly to my backend.  
+A **full-stack personal portfolio website that I built** to showcase my software projects, skills, professional experience, and testimonials — with an integrated contact form that sends messages directly to my backend.  
 Built with React, Framer Motion, SCSS, and Sanity CMS.  
 Responsive across all screen sizes — from desktop browsers to iPhone and Android devices.
 
