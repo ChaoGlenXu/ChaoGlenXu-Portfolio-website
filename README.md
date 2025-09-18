@@ -36,6 +36,12 @@ Check out the live website here: https://chaoglenxu-portfolio.netlify.app/
     
 > ⚠️ Note: The backend (Sanity CMS) is in a **separate repository**. Dynamic content like projects, skills, testimonials, and contact form messages is managed through that backend.
 
+## Backend
+
+This portfolio website communicates with a backend hosted in a separate repository:  
+[ChaoGlenXu-Portfolio-Website-Backend](https://github.com/ChaoGlenXu/ChaoGlenXu-Portfolio-Website-Backend)  
+Built with Sanity CMS to manage and serve content such as projects, skills, experience, and testimonials.
+
 
 ---
 
