@@ -11,7 +11,8 @@ Responsive across all screen sizes — from desktop browsers to iPhone and Andro
 Check out the live website here: https://chaoglenxu-portfolio.netlify.app/
 
 
-<img width="1219" height="1055" alt="Screenshot 2025-09-17 at 8 48 08 PM" src="https://github.com/user-attachments/assets/e7c1497f-1f1a-4d5c-906a-c311e479e663" />
+<img width="1217" height="1055" alt="Screenshot 2025-09-17 at 8 48 08 PM" src="https://github.com/user-attachments/assets/dd97368f-61c2-45c2-ad0a-3ca4c6b0480a" />
+
 
 
 ---
